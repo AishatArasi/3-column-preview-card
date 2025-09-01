@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+
+* {
+    margin: 0; padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    display: flex;
+    justify-content:  center;
+    flex-direction: row;
+    height: 350px;
+}
+
+.sEDANS {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.sUV {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+   
+}
+
+.lUXURY {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0px;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-size: 25px;
+    font-weight: 700px;
+    padding: 20px 20px;
+    font-family: "Big Shoulders", sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    background-color:  hsl(0, 15%, 95%);
+    border-radius: 20px;
+    border: 1px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 40px 20px 20px 20px;
+     font-family: "Lexend Deca", sans-serif;
+   
+}
+
+.le {
+    color: hsl(31, 77%, 52%);
+    text-transform: capitalize;
+}
+
+.lea {
+    color: hsl(184, 100%, 22%);
+    
+}
+
+.lear {
+    color: hsl(179, 100%, 13%);
+    background-color:  hsl(0, 15%, 95%);
+
+}
+
+p {
+    font-size: 12px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    padding: 0px 20px 20px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+img {
+   margin: 0px 20px 0px 20px;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sEDANS {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.lUXURY {
+    border-radius: 0px 0px 8px 8px;
+}
+
+img {
+   margin: 20px 20px 0px 20px;
+}
+}
